@@ -13,3 +13,12 @@
 - Receiver: Crossfire Nano
 - Blackbox: Openlager 2Khz GYRO Scaled
 - Radio Transmitter: Jumper T16 with Crossfire Micro
+
+
+### First Flight Test Video and blackbox log
+- https://www.youtube.com/watch?v=GKmMcODKaT4
+- https://github.com/c0debreaker/tcmmrc-blackbox-logs/blob/master/test_flight_1_blackbox_log/flight_test_1_bblog.TXT
+
+### Second Flight Test Video and blackbox log
+- https://www.youtube.com/watch?v=DVowwjK-D10
+- https://github.com/c0debreaker/tcmmrc-blackbox-logs/blob/master/test_flight_2_blackbox_log/flight_test_2_bblog.TXT
