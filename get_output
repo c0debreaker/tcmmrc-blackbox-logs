@@ -1,0 +1,189 @@
+get gyro_lowpass_hz
+gyro_lowpass_hz = 200
+Allowed range: 0 - 4000
+
+# get gyro_lowpass2_hz
+gyro_lowpass2_hz = 375
+Allowed range: 0 - 4000
+Default value: 250
+
+# get dyn_notch_width_percent
+dyn_notch_width_percent = 0
+Allowed range: 0 - 20
+Default value: 8
+
+# get dyn_notch_q
+dyn_notch_q = 250
+Allowed range: 1 - 1000
+Default value: 120
+
+# get dyn_notch_min_hz
+dyn_notch_min_hz = 90
+Allowed range: 60 - 250
+Default value: 150
+
+# get dyn_notch_max_hz
+dyn_notch_max_hz = 350
+Allowed range: 200 - 1000
+Default value: 600
+
+# get dyn_lpf_gyro_min_hz
+dyn_lpf_gyro_min_hz = 300
+Allowed range: 0 - 1000
+Default value: 200
+
+# get dyn_lpf_dterm_min_hz
+dyn_lpf_dterm_min_hz = 105
+profile 0
+Allowed range: 0 - 1000
+Default value: 70
+
+# get dyn_lpf_dterm_max_hz
+dyn_lpf_dterm_max_hz = 255
+profile 0
+Allowed range: 0 - 1000
+Default value: 170
+
+# get dyn_lpf_dterm_curve_expo
+dyn_lpf_dterm_curve_expo = 7
+profile 0
+Allowed range: 0 - 10
+Default value: 5
+
+# get dterm_lowpass2_hz
+dterm_lowpass2_hz = 225
+profile 0
+Allowed range: 0 - 4000
+Default value: 150
+
+# get vbat_sag_compensation
+vbat_sag_compensation = 0
+profile 0
+Allowed range: 0 - 150
+
+# get yaw_lowpass_hz
+yaw_lowpass_hz = 70
+profile 0
+Allowed range: 0 - 500
+Default value: 0
+
+# get p_pitch
+p_pitch = 69
+profile 0
+Allowed range: 0 - 200
+Default value: 46
+
+# get i_pitch
+i_pitch = 90
+profile 0
+Allowed range: 0 - 200
+
+# get d_pitch
+align_board_pitch = 0
+Allowed range: -180 - 360
+
+d_pitch = 39
+profile 0
+Allowed range: 0 - 200
+Default value: 38
+
+telemetry_disabled_pitch = OFF
+Allowed values: OFF, ON
+
+osd_pid_pitch_pos = 234
+Allowed range: 0 - 15359
+
+# get p_roll
+p_roll = 63
+profile 0
+Allowed range: 0 - 200
+Default value: 42
+
+# get i_roll
+i_roll = 85
+profile 0
+Allowed range: 0 - 200
+
+# get d_roll
+align_board_roll = 0
+Allowed range: -180 - 360
+
+d_roll = 36
+profile 0
+Allowed range: 0 - 200
+Default value: 35
+
+telemetry_disabled_roll = OFF
+Allowed values: OFF, ON
+
+osd_pid_roll_pos = 234
+Allowed range: 0 - 15359
+
+# get p_yaw
+p_yaw = 68
+profile 0
+Allowed range: 0 - 200
+Default value: 45
+
+# get i_yaw
+i_yaw = 90
+profile 0
+Allowed range: 0 - 200
+
+# get d_min_roll
+d_min_roll = 0
+profile 0
+Allowed range: 0 - 100
+Default value: 23
+
+# get d_min_pitch
+d_min_pitch = 0
+profile 0
+Allowed range: 0 - 100
+Default value: 25
+
+# get d_min_boost_gain
+d_min_boost_gain = 37
+profile 0
+Allowed range: 0 - 100
+
+# get d_min_advance
+d_min_advance = 20
+profile 0
+Allowed range: 0 - 200
+
+# get auto_profile_cell_count
+auto_profile_cell_count = 6
+profile 0
+Allowed range: -1 - 8
+Default value: 0
+
+# get f_pitch
+f_pitch = 86
+profile 0
+Allowed range: 0 - 2000
+Default value: 95
+
+# get f_roll
+f_roll = 81
+profile 0
+Allowed range: 0 - 2000
+Default value: 90
+
+# get f_yaw
+f_yaw = 81
+profile 0
+Allowed range: 0 - 2000
+Default value: 90
+
+# get d_min_boost_gain
+d_min_boost_gain = 37
+profile 0
+Allowed range: 0 - 100
+
+# get d_min_advance
+d_min_advance = 20
+profile 0
+Allowed range: 0 - 200
+
+# 
